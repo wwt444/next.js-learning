@@ -5,15 +5,17 @@ export const dancingScript = localFont({
   src: '../public/font/DancingScript-Bold.ttf',
   variable: '--font-dancingScript',
 })
+export const xiaokai = localFont({
+  src: '../public/font/slideyouran-Regular.ttf',
+  variable: '--font-xiaokai',
+})
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en"  className={
-      dancingScript.variable
-    }>
+    <html lang="en" className={`${xiaokai.variable} ${dancingScript.variable}`}>
       <body>{children}</body>
     </html>
   );

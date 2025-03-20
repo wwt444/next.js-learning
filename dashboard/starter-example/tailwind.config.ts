@@ -20,6 +20,7 @@ const config: Config = {
       },
       fontFamily: {
         dancingScript: ['var(--font-dancingScript)'],
+        xiaokai: ['var(--font-xiaokai)'],
       },
     },
     keyframes: {
