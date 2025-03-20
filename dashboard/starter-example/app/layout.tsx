@@ -1,11 +1,11 @@
 import "./ui/global.css";
 import localFont from 'next/font/local';
 
-export const dancingScript = localFont({
+const dancingScript = localFont({
   src: '../public/font/DancingScript-Bold.ttf',
   variable: '--font-dancingScript',
 })
-export const xiaokai = localFont({
+const xiaokai = localFont({
   src: '../public/font/slideyouran-Regular.ttf',
   variable: '--font-xiaokai',
 })
