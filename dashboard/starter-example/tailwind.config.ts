@@ -18,6 +18,9 @@ const config: Config = {
           600: '#2F6FEB',
         },
       },
+      fontFamily: {
+        dancingScript: ['var(--font-dancingScript)'],
+      },
     },
     keyframes: {
       shimmer: {
